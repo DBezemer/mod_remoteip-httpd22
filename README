@@ -1,6 +1,9 @@
 ## Apache HTTP Server 2.2.x mod_remoteip backport
 This is a backport of apache 2.4.1 mod_remoteip to apache 2.2.x.
 
+## Requirements
+gcc, httpd-devel, 
+
 ## Compile and Install
  apxs -i -c -n mod_remoteip.so mod_remoteip.c
 or simply try:
