@@ -28,8 +28,8 @@
 
 Summary: This is a backport of apache 2.4.1 mod_remoteip to apache 2.2.x.
 Name: mod_remoteip-httpd22
-Version: 2.2.1
-Release: 1%{?dist}
+Version: %{version}
+Release: %{release}%{?dist}
 License: Apache License, Version 2.0
 Group: Development/Libraries
 URL: http://httpd.apache.org/docs/2.4/mod/mod_remoteip.html
